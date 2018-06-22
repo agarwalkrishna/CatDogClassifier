@@ -101,7 +101,7 @@ def model(X, Y, layers_dims, learning_rate = 0.001, lambd=0.1, mini_batch_size=3
     plt.title("Learning rate =" + str(learning_rate))
     fig1=plt.gcf()
     plt.show()
-    fig1.savefig('results/Cost2.png', bbox_inches='tight')
+    fig1.savefig('results/Cost.png', bbox_inches='tight')
     
     return parameters
 
